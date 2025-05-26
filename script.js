@@ -60,4 +60,3 @@ resetButton.addEventListener('click', function() {
     clearInterval(intervalId);
     clearTimeout(timeoutId);
 });
-// ...existing code...
