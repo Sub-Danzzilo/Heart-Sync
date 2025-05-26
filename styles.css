@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    background-color: aliceblue;
+}
+
+.heart-container {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#heart {
+    font-size: 100px;
+    margin: 10px auto;
+    cursor: pointer;
+    user-select: none;
+}
+
+.output-text {
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 10px;
+    min-width: 180px;
+}
