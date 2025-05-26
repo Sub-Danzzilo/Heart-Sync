@@ -6,6 +6,7 @@ body {
 }
 
 .heart-container {
+    display: relative;
     position: relative;
     width: 50%;
     margin: 20px auto;
@@ -32,16 +33,21 @@ body {
     }
 
     .heart-container {
-        width: 40%;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
     }
 
-    #heart {
-        font-size: 120px;
+    input[type="text"] {
+        display: relative;
+        margin: 10px auto;
+        width: 90%;
+        max-width: 300px;
+        font-size: 1em;
     }
 
     .output-text {
         font-size: 2.5em;
         min-width: 220px;
     }
-    
 }
