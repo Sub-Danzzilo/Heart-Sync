@@ -37,7 +37,7 @@ syncButton.addEventListener('click', function() {
     clearTimeout(timeoutId);
 
     let currentPercent = 0;
-    output.textContent = ' ';
+    output.textContent = '0%';
 
     intervalId = setInterval(() => {
         currentPercent = Math.floor(Math.random() * 101);
