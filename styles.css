@@ -25,3 +25,23 @@ body {
     margin-top: 10px;
     min-width: 180px;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .heart-container {
+        width: 40%;
+    }
+
+    #heart {
+        font-size: 120px;
+    }
+
+    .output-text {
+        font-size: 2.5em;
+        min-width: 220px;
+    }
+    
+}
